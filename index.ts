@@ -8,7 +8,7 @@
 // 3)compare user input with computer generated number and show result
 
 const randomNumber = Math.floor(Math.floor(Math.random()* 6+1));
-console.log(randomNumber);
+console.log("welcom to number guessing game");
 const answers = await inquirer.prompt([
     {
         name : "userGuessedNumber",
